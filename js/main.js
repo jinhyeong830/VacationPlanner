@@ -19,4 +19,5 @@ loginTxt.addEventListener("click", function () {
 });
 xMark.addEventListener("click", function () {
 	loginWindow.classList.add("hide");
+	logoImg.classList.remove("hide");
 });
