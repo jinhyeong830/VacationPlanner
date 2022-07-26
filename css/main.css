@@ -1,0 +1,205 @@
+/* COMMON */
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.en {
+	font-family: "Edu TAS Beginner", cursive;
+}
+
+/* HEADER */
+header {
+	width: 100%;
+	height: 115px;
+	position: relative;
+	z-index: 2;
+	border-bottom: 1px solid rgba(235, 255, 255, 0.205);
+}
+
+/* HEADER-logo */
+header .logo {
+}
+
+header .logo img {
+	width: 160px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	height: auto;
+	left: 20px;
+}
+
+/* HEADER-main menu */
+header .with_reaction_main {
+}
+header .main_menu {
+	display: flex;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	height: 16px;
+	left: 50%;
+	transform: translate(-50%, 0);
+}
+header .main_menu a {
+	color: rgba(245, 245, 245, 0.756);
+}
+
+header .main_menu li {
+	padding: 0 17px;
+}
+
+/* HEADER-register */
+header .register {
+	display: flex;
+	position: absolute;
+	top: 5px;
+
+	right: 2%;
+	font-size: 11px;
+}
+
+header .register li {
+	padding: 5px;
+	color: #fff;
+}
+
+header .register li a {
+	color: #ddd;
+}
+
+header .register li a:hover {
+	text-decoration: underline;
+}
+
+/* FIGURE */
+figure {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	z-index: 1;
+}
+
+figure video {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+figure .txt {
+	position: absolute;
+	left: 6vw;
+	top: 40%;
+	transform: translate(0, -50%);
+}
+figure .txt p {
+	font-size: 10vw;
+	color: #fff;
+	position: relative;
+}
+
+figure .txt .content {
+	position: absolute;
+	left: 10%;
+}
+
+figure .txt .content a {
+	color: aquamarine;
+}
+
+figure .txt .content img {
+	width: 14px;
+}
+
+/* LOGIN */
+.login {
+	width: 400px;
+	height: 500px;
+	position: absolute;
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: #fff;
+	z-index: 3;
+	border: 1px solid aquamarine;
+	border-radius: 50px;
+
+	transition: 0.4s;
+}
+.hide {
+	display: none;
+}
+
+.login a {
+	font-size: 30px;
+	color: cornflowerblue;
+	position: absolute;
+	top: 5px;
+	right: 25px;
+}
+
+.login .login_box {
+	position: absolute;
+	top: 130px;
+	left: 20%;
+}
+
+.login img {
+	width: 400px;
+	height: auto;
+	position: absolute;
+	top: 40px;
+}
+.login .login_box input {
+	display: inline-block;
+	height: 30px;
+	position: absolute;
+	left: 10px;
+	padding: 20px;
+}
+
+.login .login_box input:nth-child(2) {
+	top: 130px;
+}
+.login .login_box input:nth-child(5) {
+	/*br때문에 6*/
+	top: 180px;
+}
+
+.login .login_btn {
+	display: block;
+	width: 250px;
+	height: 50px;
+	background-color: rgba(81, 159, 255, 0.831);
+	border: 3px solid rgba(255, 255, 255, 0.728);
+	border-radius: 10px;
+	font-size: 20px;
+	line-height: 47px;
+	text-align: center;
+	color: white;
+	letter-spacing: 5px;
+	position: absolute;
+	top: 380px;
+	margin: 0 auto;
+	right: 0;
+	left: 0;
+}
