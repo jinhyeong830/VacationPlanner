@@ -3,8 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@600&display=swap");
 @font-face {
 	font-family: "twayair";
-	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff")
-		format("woff");
+	src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_tway@1.0/twayair.woff") format("woff");
 	font-weight: normal;
 	font-style: normal;
 }
